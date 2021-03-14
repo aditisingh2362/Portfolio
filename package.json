@@ -1,0 +1,58 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-regular-svg-icons": "^5.15.1",
+    "@testing-library/jest-dom": "^5.11.8",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.6.0",
+    "particles-bg": "^2.5.0",
+    "react": "^17.0.1",
+    "react-background-animation": "^1.0.1",
+    "react-chrono": "^1.8.4",
+    "react-cool-tabs": "^1.1.6",
+    "react-dom": "^17.0.1",
+    "react-flippy": "^0.1.5",
+    "react-horizontal-timeline": "^1.5.3",
+    "react-icons": "^4.1.0",
+    "react-particles-js": "^3.4.1",
+    "react-progressbar": "^15.4.1",
+    "react-scripts": "4.0.1",
+    "react-scroll": "^1.8.1",
+    "react-skillbars": "^1.6.1",
+    "react-skills": "^1.27.0",
+    "react-smarttab": "^2.0.1",
+    "react-sweet-progress": "^1.1.2",
+    "react-text-transition": "^1.1.4",
+    "react-tsparticles": "^1.18.11",
+    "react-vfx": "^0.4.1",
+    "use-dencrypt-effect": "^1.0.2",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

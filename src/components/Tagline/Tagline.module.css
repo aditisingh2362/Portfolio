@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap');
+
+*{
+    margin: 0vw;
+    padding: 0vw;
+}
+
+.designation {
+    color: white;
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 3vw; 
+}
+
+.helloLine{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+
+.helloBar{
+    background-color: purple;
+    height:  0.15vw;
+    width: 0.25vw;
+    border-width: 0vw;
+}

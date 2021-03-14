@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+  }
+  
+  .navbarSticky {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    background:black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 1px 1px 1px #222;
+    animation: moveDown 0.5s ease-in-out;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    opacity: 0.8;
+  }
+  
+  .navbarLink {
+    display: flex;
+    list-style: none;
+  }
+
+  li a {
+    color:white;
+    text-decoration: none;
+  }
+  
+
+  .navbarLinkItem {
+    margin: 0.4rem 1rem 0 0;
+    padding: 0 0.3rem;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3vw;
+  }
+
+  .active{
+    font-weight: bold;
+  }
+
+  .Menu{
+    display: none;
+  }
+
+
+  
+  @keyframes moveDown {
+    from {
+      transform: translateY(-3rem);
+    }
+    to {
+      transform: translateY(0rem);
+    }
+  }
+  
+  @keyframes moveUp {
+    from {
+      transform: translateY(0rem);
+    }
+    to {
+      transform: translateY(-5rem);
+    }
+  }
+  .closeNavbar{
+    display: none;
+  }
+  
+  @media (max-width: 600px){
+    .navbar {
+      display: flex;
+      z-index: 1;
+      width: auto;
+      padding-top: 1vw;
+      padding-bottom: 1vw;
+      background-color: none;
+      box-shadow: none;
+      height: 100vh;
+      width: 10vw;
+    }
+    .navbarLink{
+      flex-direction: column;
+      list-style: none;
+      justify-content: space-evenly;
+    }
+
+    .navbarSticky {
+      display: flex;
+      z-index: 1;
+      width: auto;
+      padding-top: 1vw;
+      padding-bottom: 1vw;
+      background-color: none;
+      box-shadow: none;
+      height: 100vh;
+      width: 10vw;
+    }
+
+    .navbarLinkItem {
+      margin-top: 10vw;
+      margin-bottom: 10vw;
+      transform: rotate(-90deg);
+      font-size: 3vw;
+      /* padding-top: 10vw; */
+      right: 0vw;
+      /* background-color: black;
+      opacity: 0.8; */
+    }
+ }

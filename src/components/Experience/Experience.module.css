@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 100vw;
+}
+
+.header{
+    margin-top: 3vw;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar{
+    background-color: purple;
+    height:  0.15vw;
+    width: 5vw;
+    border-width: 0vw;
+    margin: 1vw;
+    /* margin-left: 4vw; */
+}
+
+.title{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 5vw;
+    font-weight: bold;
+}
+
+.example{
+    position:absolute !important;
+    left: 0vw
+}
+
+.description{
+    color: white;
+}
+
+@media (max-width: 600px){
+   .experience{
+       display: none;
+   }
+}

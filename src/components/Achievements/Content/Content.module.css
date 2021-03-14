@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3vw;
+}
+
+.icon{
+    color: purple;
+    font-size: 30px;
+    padding: 1vw;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.heading{
+    color:white;
+    padding: 1vw;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.para{
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+}

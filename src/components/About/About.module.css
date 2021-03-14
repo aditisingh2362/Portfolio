@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+.about {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* padding: 3vw */
+}
+
+.leftHalf{
+    flex:1;
+    background-color: black;
+    padding: 3vw;
+}
+
+.rightHalf{
+    flex:1;
+    background-color: purple;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20190223/ourmid/pngtree-purple-light-effect-electronic-technology-background-backgrounddatabusinessblueelectronictechnologyintelligentblue-backgroundtechnology-backgroundlightcool-image_78722.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    /* padding-top: 13.3vw; */
+    padding-left: 3vw;
+    padding: 3vw;
+
+}
+
+.example{
+    position:absolute !important;
+}
+
+.header{
+    margin-top: 3vw;
+    display: flex;
+    flex-direction: row;
+    /* padding-left: 3vw;
+    padding-right: 3vw */
+}
+
+.bar{
+    flex:1;
+    background-color: purple;
+    height: 0.15vw;
+    width: 30vw;
+    border-width: 0vw;
+    margin: 1vw;
+    margin-top: 2vw;
+    margin-left: 3vw;
+}
+
+.title{
+    flex:8;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    /* padding-left: 3vw; */
+    padding-right: 3vw;
+    padding-bottom: 2vw;
+    font-size: 3vw;
+}
+
+.heading{
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 4vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-bottom: 0.5vw;
+}
+
+.para{
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 2vw;
+    font-size: 1.3vw;
+}
+
+@media (max-width: 1030px){
+    .about {
+        flex-direction: column-reverse;
+    }
+
+    .para{
+        padding-top: 5vw;
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    .leftHalf{
+        flex:1;
+        background-color: black;
+        padding-bottom: 20vw;
+    }
+
+    /* .title{
+        font-size: 50px;
+    } */
+
+    .bar{
+        display: none;
+    }
+
+    .rightHalf{
+        display: none;
+    }
+
+}

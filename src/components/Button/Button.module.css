@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+*{
+    margin: 0vw;
+    padding: 0vw;;
+}
+
+.buttonsome{
+    padding: 0.8vw;
+    border-radius: 10px;
+    border:none;
+    background-color: purple;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size:20px;
+}

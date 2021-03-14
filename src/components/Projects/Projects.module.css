@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    /* overflow: hidden; */
+}
+
+.projects{
+    display: flex;
+    /* width: 100vw;
+    height: 100vh; */
+}
+
+.leftHalf{
+    background-color: black;
+    flex:1;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.rightHalf{
+    background-color: #1f1f1f;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20190223/ourmid/pngtree-purple-light-effect-electronic-technology-background-backgrounddatabusinessblueelectronictechnologyintelligentblue-backgroundtechnology-backgroundlightcool-image_78722.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    flex:7;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.horizontalText{
+    position: absolute;
+    transform: rotate(-90deg);
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 70px;
+}
+
+@media (max-width: 1200px){
+    .projects{
+
+        flex-direction: column;
+    }
+
+    .horizontalText{
+        position: relative;
+        transform: rotate(0deg);
+        color: white;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 10vw;
+        /* margin-top: 6vw; */
+    }
+
+    .leftHalf{
+        background-color: black;
+        flex:1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+}
